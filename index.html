@@ -10,6 +10,7 @@
   <title>EveryBeauty</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/miestilo.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://kit.fontawesome.com/95142c122d.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +37,7 @@
   </header>
   <main>
     <section>
-      <div class="row">
+      <div class="row" data-aos="fade-right">
         <div class="col-6 colortext container align-content-center">
             <div class="aligncenter">
                 <h2 style="font-size: 50px;">Coming soon</h2>
@@ -77,7 +78,7 @@
       </section>
       <section>
         <div class="row container">
-            <div class="col-6 colortext align-content-center">
+            <div class="col-6 colortext align-content-center" data-aos="fade-right">
                 <ul style="list-style: none;">
                     <li>
                       <i class="fa-solid fa-splotch"></i><h6 style="font-size: 14px;"><b>ORGÁNICO</b></h6>
@@ -137,19 +138,19 @@
         <h2 class="roboto-regular aligncenter colortext">SÉ EL PRIMERO EN EXPERIMENTAR LA GAMA OZONIA</h2>
         <div class="d-flex justify-content-center container">
           <div class="row">
-            <div class="col-3">
+            <div class="col-3" data-aos="zoom-in">
               <img src="img/botecito.jpg" alt="botecito" class="img-fluid">
   
             </div>
-            <div class="col-3">
+            <div class="col-3" data-aos="zoom-in">
               <img src="img/cremita.jpg" alt="cremita" class="img-fluid">
   
             </div>
-            <div class="col-3">
+            <div class="col-3" data-aos="zoom-in">
               <img src="img/serum.jpg" alt="serum" class="img-fluid">
   
             </div>
-            <div class="col-3">
+            <div class="col-3" data-aos="zoom-in">
               <img src="img/bote.jpg" alt="bote" class="img-fluid">
   
             </div>
@@ -169,25 +170,29 @@
         <div class="container d-flex justify-content-center">
           <div class="row" style="padding: 50px;">
             <div class="d-flex align-content-center">
-              <div class="col-3 aligncenter" style="padding: 30px;">
+              <div class="col-3 aligncenter" style="padding: 30px;" data-aos="fade-up"
+              data-aos-duration="3000">
                 <img src="img/mujer1.jpg" alt="mujer1" class="img-fluid">
                 <h5 class="colortext"><b>Liz Flaffham</b></h5>
                 <p class="colortext">CEO</p>
     
               </div>
-              <div class="col-3 aligncenter" style="padding: 30px;">
+              <div class="col-3 aligncenter" style="padding: 30px;" data-aos="fade-up"
+              data-aos-duration="3000">
                 <img src="img/man2.jpg" alt="man2" class="img-fluid">
                 <h5 class="colortext"><b>Douglas Galveston</b></h5>
                 <p class="colortext">Creative Director</p>
     
               </div>
-              <div class="col-3 aligncenter" style="padding: 30px;">
+              <div class="col-3 aligncenter" style="padding: 30px;" data-aos="fade-up"
+              data-aos-duration="3000">
                 <img src="img/man1.jpg" alt="man1" class="img-fluid">
                 <h5 class="colortext"><b>Sacha Dubois</b></h5>
                 <p class="colortext">Project Coordinator</p>
     
               </div>
-              <div class="col-3 aligncenter" style="padding: 30px;">
+              <div class="col-3 aligncenter" style="padding: 30px;" data-aos="fade-up"
+              data-aos-duration="3000">
                 <img src="img/mujer3.jpg" alt="mujer3" class="img-fluid">
                 <h5 class="colortext"><b>Venice Peeters</b></h5>
                 <p class="colortext">Designer</p>
@@ -296,5 +301,9 @@
     </section>
   </footer>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
